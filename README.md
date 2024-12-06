@@ -477,7 +477,7 @@ Schema::create('event_user', function (Blueprint $table) {
 });
 ```
 
-Além de, novamente, alterar o Model Event e User, permitindo que o Event pertença a múltiplos User e o Event pertença a múltiplos User, respectivamente.
+Além de, novamente, alterar o Model Event e User, permitindo que o Event pertença a múltiplos User e o User pertença a múltiplos Event, respectivamente.
 
 ```php
 // Event.php
